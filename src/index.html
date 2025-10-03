@@ -9,22 +9,23 @@
     <title>Runner Pro</title>
 </head>
 
-<body class="bg-[#030712] mt-2.5 mr-10 ml-10">
+<body class="bg-[#030712] mt-4 sm:ml-5 md:mt-2.5 sm:mr-10 md:ml-10 ">
     <!-- Header -->
-    <header class="flex w-full h-fit justify-around items-center  ">
+    <header class="flex w-full h-fit justify-center sm:justify-around items-center">
         <!-- Title -->
-        <div class="flex  ">
-            <img class="w-8 h-8 mr-2.5 " src="../assets/chasing.png ">
-
-            <h1 class="text-[22px] text-white font-medium font-sans ">
+        <div class="flex items-center justify-center">
+            <img class="w-8 h-8 mr-2 sm:w-7 sm:h-7" src="../assets/chasing.png">
+            <h1
+                class="text-center text-[19px] sm:text-[14px] md:text-[17px] lg:text-[22px] text-white font-medium font-sans">
                 Runner Pro
             </h1>
         </div>
         <!-- Title ends -->
 
         <!--Nav Starts  -->
-        <div class="  w-120">
-            <nav class=" hidden sm:flex justify-around   text-[18px] text-white">
+        <div class="  w-120 ">
+            <nav
+                class=" hidden md:flex lg:flex lg:justify-around md:text-[15px] sm:text-[12px] md:justify-evenly   lg:text-[18px] text-white">
                 <a href="/html/">Working</a>
                 <a href="/css/">Features</a>
                 <a href="/js/">Reviews</a>
@@ -35,58 +36,71 @@
         <!-- Nav Ends -->
 
         <!-- Button Buy Now -->
-        <div>
-            <button type="button" class="text-[18px] bg-[#387ADE] text-white font-medium rounded-2xl
-             w-38 h-10 hover:bg-[#4338dee6]">Buy Now!</button>
+        <div class="hidden md:flex lg:flex">
+            <button type="button"
+                class="sm:text-[12px] md:text-[15px] lg:text-[18px] bg-[#387ADE] text-white font-medium sm:rounded-md md:rounded-xl lg:rounded-xl
+             sm:w-33 sm:h-6 md:w-35 md:h-8 lg:w-38 lg:h-10  hover:bg-[#4338dee6] hover:drop-shadow-purple-500/50   drop-shadow-lg drop-shadow-blue-500/50">Buy
+                Now!</button>
         </div>
     </header>
     <!-- Header ended -->
 
     <!-- Banner Start -->
-    <div class="flex w-full h-full mt-10 bg-[#030712] justify-around">
+    <div
+        class="flex flex-col md:flex-row lg:ml-20 md:ml-5 lg:w-fit lg:h-fit md:w-full md:h-full md:mt-7 mt-12 bg-[#030712] md:justify-around justify-center items-center ">
+
         <!-- left side div -->
-        <div class="w-120 h-130 flex justify-center items-center flex-col   ">
+        <div class=" lg:w-full lg:h-full md:w-full md:h-full  justify-center items-center text-center    ">
             <div>
-                <h3 class="text-[#616169] text-[16px] font-bold mb-6">STRONGER WORKOUTS. LONGER RUNS.</h3>
-                <h1 class="text-white font-bold text-6xl ">
+                <h3
+                    class="text-[#9e9eab] text-[13px] md:text-[14px] lg:text-[16px]  font-medium md:font-bold lg:font-bold  lg:mb-6 mb-6">
+                    STRONGER WORKOUTS. LONGER RUNS.</h3>
+                <h1 class="text-white mb-6 md:mb-0 lg:mb-0 font-bold text-xl  md:text-4xl lg:text-6xl ">
                     Simple fitness <br> experience for everyone
                 </h1>
 
-                <h3 class="text-[#616169] text-[16px] font-medium mt-6 ">Track your workouts,get better results and be
+                <h3
+                    class="text-[#8d8d9a] text-[13px] lg:text-[16px]  font-medium md:font-semibold lg:font-bold md:mt-4 lg:mt-6  ">
+                    Track your workouts,get better results and be
                     the<br> best version of YOU! Less thinking more training.</h3>
+            </div>
+            <!-- Two Buttons inline Start-->
+            <div class=" flex  md:gap-5 gap-8 mt-12">
 
-                <!-- Two Buttons inline Start-->
-                <div class=" flex gap-5 mt-8">
-
-                    <button type="button" class="text-[18px] bg-[#2976e9] text-[#030712] font-bold rounded-2xl
-                     w-40 h-12 hover:bg-[#4338dee6] hover:text-white ">Buy Now!</button>
-                    <button type="button" class="text-[18px] outline-1 outline-[#387ADE] text-white font-bold rounded-2xl
-                    w-40 h-12 hover:bg-[#4338dee6]">Download App</button>
-
-                </div>
-
-                <!-- Two Buttons inline END -->
+                <button type="button"
+                    class="text-[13px] md:text-[15px] lg:text-[18px] bg-[#2976e9] text-[#030712] font-bold rounded-xl
+                      w-30 h-8 md:w-35 md:h-10 lg:w-40 lg:h-12 hover:bg-[#4338dee6] hover:text-white hover:drop-shadow-purple-500/50   drop-shadow-lg drop-shadow-blue-500/50 ">Buy
+                    Now!</button>
+                <button type="button" class="text-[13px] md:text-[15px] lg:text-[18px] outline-1 outline-[#387ADE] text-white font-medium lg:font-bold rounded-xl
+                    w-30 h-8 md:w-35 md:h-10 lg:w-40 lg:h-12 hover:bg-[#4338dee6]">Download App</button>
 
             </div>
+
+            <!-- Two Buttons inline END -->
+
+
 
 
         </div>
         <!-- Right side image div -->
 
-        <div class=" relative w-130 h-130 flex justify-center items-center">
-
-
-            <div class=" flex ">
-                <img class="w-30 h-30 absolute top-0  blur-3xl left-75 z-0" src="../assets/bottle1.png">
-
-                <img class="w-30 h-30 absolute top-80 blur-3xl   opacity-65 left-95 z-0" src="../assets/shoes.png">
-
-                <img class="w-30 h-30 absolute top-55 blur-3xl left-5 z-0" src="../assets/dumbell.png">
+        <div
+            class="  relative  flex lg:w-full lg:h-full md:w-full md:h-full md:flex justify-center items-center mt-15 md:0">
 
 
 
-                <img class="w-135 h-135   rounded-full relative z-10 brightness-150 " src="../assets/watch4.png">
-            </div>
+            <img class="w-20 h-20 md:w-30 md:h-30 absolute top-0  blur-3xl left-75 z-0" src="../assets/bottle1.png">
+
+            <img class="w-20 h-20 md:w-30 md:h-30 absolute top-80 blur-3xl   opacity-65 left-95 z-0"
+                src="../assets/shoes.png">
+
+            <img class="w-20 h-20 md:w-30 md:h-30 absolute top-55 blur-3xl left-5 z-0" src="../assets/dumbell.png">
+
+
+
+            <img class="w-80 h-80 md:w-100 md:h-100 lg:w-120 lg:h-120 rounded-full relative z-10 brightness-120 md:mb-18 "
+                src="../assets/watch4.png">
+
 
         </div>
     </div>
@@ -95,21 +109,21 @@
 
     <!-- Companies we work with Section -->
 
-    <div class="flex flex-col  flex-wrap w-full h-full justify-center items-center mt-15 mb-15 ">
+    <div class="flex flex-col  flex-wrap w-full h-full justify-center items-center lg:mt-15 mt-30 mb-15 ">
         <div class=" items-center justify-center text-center flex h-15">
             <h2 class="text-white text-center font-bold ">We work with people all over the world!</h2>
         </div>
 
-        <div class="w-full flex-wrap flex justify-around items-center">
-            <img class="w-25 h-20 filter brightness-0 invert opacity-80 hover:opacity-100 transition "
+        <div class="w-full flex-wrap flex justify-around items-center ">
+            <img class="lg:w-25 lg:h-20 w-20 h-16 filter brightness-0 invert opacity-80 hover:opacity-100 transition "
                 src="../assets/logos/anytime.png">
-            <img class="w-25 h-20 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
+            <img class="lg:w-25 lg:h-20 w-20 h-16 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
                 src="../assets/logos/cross.png">
-            <img class="w-25 h-20 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
+            <img class="lg:w-25 lg:h-20 w-20 h-16 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
                 src="../assets/logos/24.png">
-            <img class="w-25 h-20 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
+            <img class="lg:w-25 lg:h-20 w-20 h-16 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
                 src="../assets/logos/curves.png">
-            <img class="w-25 h-20 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
+            <img class="lg:w-25 lg:h-20 w-20 h-16 filter brightness-0 invert opacity-80 hover:opacity-100 transition"
                 src="../assets/logos/equinox.png">
         </div>
 
@@ -119,25 +133,30 @@
 
     <!-- Book a class Container -->
 
-    <div class="flex w-full h-full mt-35 bg-[#030712] justify-around gap-15 flex-row-reverse">
+    <div
+        class="flex w-full h-full lg:mt-35 mt-10 bg-[#030712] md:justify-around md:gap-15 flex-row-reverse flex-wrap ml-5  md:ml-0 ">
         <!-- left side div -->
-        <div class="w-120 h-130 flex justify-center items-center flex-col   ">
+        <div class=" text-center lg:text-left w-120 h-130 flex justify-center items-center flex-col   ">
             <div>
 
-                <h1 class="text-white font-bold text-6xl ">
+                <h1 class="text-white font-bold text-3xl  md:text-4xl lg:text-6xl ">
                     Train Smarter <br> get stronger
                 </h1>
 
-                <h3 class="text-[#616169] text-[16px] font-medium mt-8 ">Runner pro helps track your workouts,get better
-                    results and be the best version of YOU! Less thinking more training.</h3>
+                <h3 class="text-[#8d8d9a] text-[14px] lg:text-[16px]  font-medium md:font-semibold  mt-8 ">
+                    Runner pro helps track your workouts,get better
+                    results and<br>be the best version of YOU! Less thinking more training.</h3>
 
                 <!-- Two Buttons inline Start-->
-                <div class=" flex gap-5 mt-8">
+                <div class=" flex gap-5 mt-15 justify-center items-center lg:items-start lg:justify-start">
 
-                    <button type="button" class="text-[18px] bg-[#2976e9] text-white font-bold rounded-2xl
-                     w-40 h-12 hover:bg-[#4338dee6] hover:text-black ">Book a class</button>
-                    <button type="button" class="text-[18px] outline-1 outline-[#387ADE] text-white font-bold rounded-2xl
-                    w-40 h-12 hover:bg-[#4338dee6]">Download App</button>
+                    <button type="button"
+                        class="text-[14px] md:text-[15px] lg:text-[18px] bg-[#2976e9] text-white font-bold lg:rounded-2xl rounded-xl w-30 h-10
+               md:w-35 md:h-10 lg:w-40 lg:h-12 hover:bg-[#4338dee6] hover:text-black hover:drop-shadow-purple-500/50   drop-shadow-lg drop-shadow-blue-500/50 ">Book
+                        a class</button>
+
+                    <button type="button" class="text-[14px] md:text-[15px] lg:text-[18px] outline-1 outline-[#387ADE] text-white font-bold lg:rounded-2xl rounded-xl w-30 h-10
+                     md:w-35 md:h-10 lg:w-40 lg:h-12 hover:bg-[#4338dee6]">Download App</button>
 
                 </div>
 
@@ -149,7 +168,7 @@
         </div>
         <!-- Right side image div -->
 
-        <div class=" relative w-130 h-130 flex justify-center items-center">
+        <div class="  relative w-130 h-130 flex justify-center items-center ">
 
 
             <div class=" flex ">
@@ -161,11 +180,14 @@
 
                 <!-- Below are 3d images -->
 
-                <img class="w-55 h-55 absolute top-35 brightness-130   left-75 z-0" src="../assets/3d/basket.png">
+                <img class="w-28 h-28 lg:w-55 lg:h-55 md:w-40 md:h-40 sm:w-32 sm:h-32 absolute  lg:top-40 lg:left-80 md:top-47 md:left-50 z-0 brightness-130 sm:top-50 sm:left-48 top-55 left-80 "
+                    src="../assets/3d/basket.png">
 
-                <img class="w-55 h-55 absolute top-5 left-2 z-0  " src="../assets/3d//bottle.png">
+                <img class="w-28 h-28 lg:w-55 lg:h-55 md:w-40 md:h-40 sm:w-32 sm:h-32 absolute top-30 left-20 lg:top-0 lg:left-0 md:top-0 md:left-0 sm:top-10 sm:left-5 z-0  "
+                    src="../assets/3d//bottle.png">
 
-                <img class="w-125 h-125   rounded-full relative z-10  " src="../assets/3d/bag.png">
+                <img class="w-85 h-65 lg:w-122 lg:h-122 md:w-105 md:h-105 sm:w-85 sm:h-85 rounded-full relative z-10  "
+                    src="../assets/3d/bag.png">
             </div>
 
         </div>
@@ -173,25 +195,30 @@
 
     <!-- Track Progress Container -->
 
-    <div class="flex w-full h-full mt-35 bg-[#030712] justify-around gap-15">
+    <div class="flex w-full h-full mt-35 ml-5  md:ml-0   bg-[#030712] justify-around lg:gap-15 flex-wrap">
         <!-- left side div -->
-        <div class="w-120 h-130 flex justify-center items-center flex-col   ">
-            <div>
+        <div class="w-120 h-130 flex justify-center items-center flex-col  ">
+            <div class="  ">
 
-                <h1 class="text-white font-bold text-6xl ">
+                <h1 class="text-white font-bold lg:text-6xl sm:text-4xl text-3xl">
                     Track Your Progress,<br>Lift Smarter
                 </h1>
 
-                <h3 class="text-[#616169] text-[16px] font-medium mt-8 ">Track your workouts easily,see real
+                <h3 class="text-[#616169] lg:text-[16px] md:text-[14px] text-[13px]  font-medium mt-8 ">
+                    Track your workouts easily,see real
                     improvements<br>and reach your fitness goals faster with less effort.</h3>
 
                 <!-- Two Buttons inline Start-->
                 <div class=" flex gap-5 mt-8">
 
-                    <button type="button" class="text-[16px] bg-[#2976e9] text-white font-bold rounded-2xl
-                     w-40 h-12 hover:bg-[#4338dee6] hover:text-black ">Show All Products</button>
-                    <button type="button" class="text-[18px] outline-1 outline-[#387ADE] text-white font-bold rounded-2xl
-                    w-40 h-12 hover:bg-[#4338dee6]">Download App</button>
+                    <button type="button"
+                        class="lg:text-[16px] md:text-[14px] text-[12px] bg-[#2976e9] text-white font-bold lg:rounded-2xl md:rounded-xl rounded-md
+                     lg:w-40 lg:h-12  md:w-35 md:h-11 w-32 h-10  hover:bg-[#4338dee6] hover:text-black hover:drop-shadow-purple-500/50   drop-shadow-lg drop-shadow-blue-500/50 ">Show
+                        All Products</button>
+
+                    <button type="button" class="lg:text-[16px] md:text-[14px] text-[12px] outline-1 outline-[#387ADE] text-white font-bold lg:rounded-2xl md:rounded-xl rounded-md
+                    lg:w-40 lg:h-12  md:w-35 md:h-11 w-32 h-10  hover:bg-[#4338dee6]">Download
+                        App</button>
 
                 </div>
 
@@ -203,7 +230,7 @@
         </div>
         <!-- Right side image div -->
 
-        <div class=" relative w-130 h-130 flex justify-center items-center">
+        <div class=" relative w-130 h-130 flex justify-center items-center ">
 
 
             <div class=" flex ">
@@ -218,18 +245,20 @@
                 <img class="w-30 h-30 absolute bottom-85 blur-3xl opacity-30 right-270 z-0"
                     src="../assets/watches/gold3.png">
 
-                <img class="w-40 h-40 absolute top-12 left-75 rotate-30   " src="../assets/bottle1.png">
+                <img class="lg:w-40 lg:h-40 md:w-35 md:h-35 sm:w-31 sm:h-31 w-25 h-25 absolute lg:top-12 lg:left-75 md:top-12 md:left-65 sm:top-12 sm:left-48 top-25 left-20 rotate-30   "
+                    src="../assets/bottle1.png">
 
-                <img class="w-110 h-110   rounded-full relative  brightness-80  " src="../assets/watches/fit1.png">
+                <img class="lg:w-110 lg:h-110 md:95 md:h-95 sm:w-90 sm:h-90 w-60 h-60   rounded-full relative  brightness-80  "
+                    src="../assets/watches/fit1.png">
             </div>
 
         </div>
     </div>
     <!-- STATS section -->
-    <hr class="border-t border-gray-700 my-8 w-255 mb-40 mx-auto">
+    <hr class="border-t  border-gray-700 my-8 lg:w-255 md:w-165 sm:w-130 w-110  mb-40 mx-auto">
 
     <div class="flex w-full h-full mb-15  justify-center  items-center mt-45  ">
-        <div class=" m-2 flex w-full h-full  justify-center  items-center ">
+        <div class=" m-2 flex w-full h-full  justify-center  items-center flex-wrap ">
 
             <div class="  w-fit h-fit m-2  ">
                 <img src="../assets/icons/user.png" class="w-12 h-12 mb-8  ">
@@ -301,33 +330,48 @@
 
 
     <!-- App Mockup Section -->
-    <div class="flex w-full h-full mt-45 bg-[#030712] justify-around gap-10 mb-10">
+    <div
+        class="flex w-full h-full mt-45 bg-[#030712] justify-center items-center text-center md:text-left md:justify-around gap-10 mb-10 flex-wrap">
         <!-- left side div -->
-        <div class="w-120 h-130 flex justify-center items-center flex-col   ">
-            <div>
+        <div class="w-120 h-130 flex justify-center items-center flex-col  ">
+            <div class=" ml-5  md:ml-0 ">
 
-                <h1 class="text-white font-bold text-5xl ">
+                <h1 class="text-white font-bold lg:text-5xl md:text-3xl sm:text-xl text-lg ">
                     All your workouts,<br>in your pocket
                 </h1>
 
-                <h3 class="text-[#616169] text-[16px] font-medium mt-8 ">Runner Pro helps track your workouts,get better
+                <h3 class="text-[#a2a2ac] lg:text-[16px] md:text-[15px] sm:text-[13px] text-[12px] font-medium mt-8 ">
+                    Runner Pro helps track your workouts,get better
                     results and be the best version of you. Less Thinking!</h3>
 
                 <div>
-                    <h3 class="text-[#616169] text-[16px] font-medium mt-8 "> ✅ Fitness Pro Cloud</h3>
-                    <h3 class="text-[#616169] text-[16px] font-medium mt-8 "> ✅ Syncs with Google Fit</h3>
-                    <h3 class="text-[#616169] text-[16px] font-medium mt-8 "> ✅ Syncs with Apple Health</h3>
-                    <h3 class="text-[#616169] text-[16px] font-medium mt-8 "> ✅ Track your progress easily</h3>
-                    <h3 class="text-[#616169] text-[16px] font-medium mt-8 "> ✅ Intuitive and clean design</h3>
+                    <h3
+                        class="text-[#a2a2ac]  lg:text-[16px] md:text-[15px] sm:text-[13px] text-[12px] font-medium mt-8 ">
+                        ✅ Fitness Pro Cloud</h3>
+                    <h3
+                        class="text-[#a2a2ac]  lg:text-[16px] md:text-[15px] sm:text-[13px] text-[12px] font-medium mt-8 ">
+                        ✅ Syncs with Google Fit</h3>
+                    <h3
+                        class="text-[#a2a2ac]  lg:text-[16px] md:text-[15px] sm:text-[13px] text-[12px] font-medium mt-8 ">
+                        ✅ Syncs with Apple Health</h3>
+                    <h3
+                        class="text-[#a2a2ac]  lg:text-[16px] md:text-[15px] sm:text-[13px] text-[12px] font-medium mt-8 ">
+                        ✅ Track your progress easily</h3>
+                    <h3
+                        class="text-[#a2a2ac]  lg:text-[16px] md:text-[15px] sm:text-[13px] text-[12px] font-medium mt-8 ">
+                        ✅ Intuitive and clean design</h3>
                 </div>
 
                 <!-- Two Buttons inline Start-->
-                <div class=" flex gap-5 mt-8">
+                <div class=" flex gap-5 md:mt-8 mt-14 justify-center items-center md:justify-start md:items-start">
 
-                    <button type="button" class="text-[16px] bg-[#2976e9] text-white font-bold rounded-2xl
-                     w-45 h-12 hover:bg-[#4338dee6] hover:text-black ">Download App</button>
-                    <button type="button" class="text-[18px] outline-1 outline-[#387ADE] text-white font-bold rounded-2xl
-                    w-45 h-12 hover:bg-[#4338dee6]">Book a class</button>
+                    <button type="button"
+                        class="lg:text-[16px] md:text-[14px] sm:text-[12px] text-[12px] bg-[#2976e9] text-white font-bold lg:rounded-2xl md:rounded-xl sm:rounded-md rounded-sm
+                        lg:w-40 lg:h-12  md:w-35 md:h-11 sm:w-32 sm:h-10 w-27 h-8 hover:bg-[#4338dee6] hover:text-black hover:drop-shadow-purple-500/50   drop-shadow-lg drop-shadow-blue-500/50 ">Download
+                        App</button>
+                    <button type="button" class="lg:text-[16px] md:text-[14px] sm:text-[12px] text-[12px] outline-1 outline-[#387ADE] text-white font-bold lg:rounded-2xl md:rounded-xl sm:rounded-md rounded-sm
+                    lg:w-40 lg:h-12  md:w-35 md:h-11 sm:w-32 sm:h-10 w-27 h-8 hover:bg-[#4338dee6]">Book a
+                        class</button>
 
                 </div>
 
@@ -341,60 +385,64 @@
 
         <div class=" relative w-150 h-140 flex justify-center items-center">
 
-            <img class="w-150 h-140 " src="../assets/mockup.png">
+            <img class="lg:w-150 lg:h-140 md:w-145 md:h-135 sm:w-135 sm:h-130 w-125 h-100 " src="../assets/mockup.png">
 
 
         </div>
     </div>
 
-    <hr class="border-t border-gray-700 my-8 w-200 mt-35 mb-30 mx-auto">
+    <hr class="border-t border-gray-700 my-8 lg:w-255 md:w-165 sm:w-130 w-110  mt-35 mb-30 mx-auto">
 
     <!-- Trial Section -->
 
     <div class=" flex justify-center text-center items-center mb-60 mt-60 flex-col">
         <div>
-            <h3 class="text-[#878792] text-[18px] font-medium mb-8 ">Try it free for 21 days</h3>
+            <h3 class="text-[#878792] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[13px] font-medium mb-8 ">Try it
+                free for 21 days</h3>
 
-            <h1 class="text-white font-bold text-5xl ">Anywhere you want.<br> Anytime you want.</h1>
+            <h1 class="text-white font-bold lg:text-5xl  md:text-4xl sm:text-3xl text-xl">Anywhere you want.<br> Anytime
+                you want.</h1>
 
-            <h3 class="text-[#878792] text-[16px] font-medium mt-8">Get started with 3 weeks unlimited yoga,
+            <h3 class="text-[#878792] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[13px] font-medium mt-8">Get
+                started with 3 weeks unlimited yoga,
                 fitness,<br>
                 and meditation classes. Cancel anytime.</h3>
 
         </div>
         <div class=" mt-8">
 
-            <button type="button" class="text-[18px] bg-[#2976e9] text-white font-bold rounded-2xl
-             w-45 h-12 hover:bg-[#4338dee6] hover:text-black  drop-shadow-lg drop-shadow-blue-500/50 ">Download
+            <button type="button"
+                class="lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px] bg-[#2976e9] text-white font-bold lg:rounded-2xl md:rounded-xl sm:rounded-md rounded-sm
+                lg:w-45 lg:h-12  md:w-40 md:h-11 sm:w-35 sm:h-10 w-30 h-8 hover:bg-[#4338dee6] hover:text-black hover:drop-shadow-purple-500/50   drop-shadow-lg drop-shadow-blue-500/50  ">Download
                 App</button>
 
 
         </div>
     </div>
-    <hr class="border-t border-gray-700 my-8 w-270 mt-35 mb-30 mx-auto">
+    <hr class="border-t border-gray-700 my-8 lg:w-270 md:w-170 sm:w-140 w-120 mt-35 mb-30 mx-auto">
 
     <!-- footer -->
-    <footer class="flex flex-row mb-10 m-15">
-        <div class=" flex flex-col ">
-            
-            <img class="w-8 h-8 mr-2.5 " src="../assets/chasing.png ">
-
-            <h1 class="text-[22px] text-white font-medium font-sans ">
+    <footer class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10 m-5">
+        <!-- Left side -->
+        <div class="flex flex-col">
+            <img class="w-8 h-8 mr-2.5" src="../assets/chasing.png">
+            <h1 class="text-[22px] text-white font-medium font-sans">
                 Runner Pro
             </h1>
-
-            <h3 class="text-[#878792] text-[14px] font-medium mt-5 ">Track your workouts easily,see real<br>
-                improvements, and reach your fitness goals!</h3>
+            <h3 class="text-[#878792] text-[14px] font-medium mt-5">
+                Track your workouts easily, see real<br>
+                improvements, and reach your fitness goals!
+            </h3>
         </div>
 
-        <div class=" flex items-end left-120 relative">
-            <nav class=" hidden sm:flex  gap-10   text-[14px] text-[#878792]">
+        <!-- Right side (nav) -->
+        <div class="mt-6 sm:mt-0">
+            <nav class="flex flex-col sm:flex-row gap-4 sm:gap-10 text-[14px] text-[#9797a4]">
                 <a href="/html/">Working</a>
                 <a href="/css/">Features</a>
                 <a href="/js/">Reviews</a>
                 <a href="/python/">Download</a>
             </nav>
-
         </div>
     </footer>
 
